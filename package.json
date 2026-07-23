@@ -7,7 +7,7 @@
     "dev": "npm run dev --prefix client",
     "build": "npm run build --prefix client",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d client/dist -a"
+    "deploy": "gh-pages -d client/dist -a --nojekyll"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
