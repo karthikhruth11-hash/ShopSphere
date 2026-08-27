@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import API from '../services/api';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../context/hooks/useAuth';
 
 export default function Login({ onSwitchToRegister }) {
   const [email, setEmail] = useState('');

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCart } from '../hooks/useCart';
+import { useCart } from '../context/hooks/useCart';
 import OffersAndCoupons from './OffersAndCoupons';
 
 export default function CartDrawer({ isOpen, onClose }) {

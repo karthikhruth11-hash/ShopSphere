@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import API from '../services/api';
-import { useCart } from '../hooks/useCart';
+import { useCart } from '../context/hooks/useCart';
 
 export default function OffersAndCoupons() {
   const [couponCode, setCouponCode] = useState('');

@@ -1,6 +1,6 @@
 import React from 'react';
-import { useAuth } from '../hooks/useAuth';
-import { useCart } from '../hooks/useCart';
+import { useAuth } from '../context/hooks/useAuth';
+import { useCart } from '../context/hooks/useCart';
 
 export default function Navbar({ onNavigate, onCartClick, onSelectCategory, onBack }) {
   const { user, logout } = useAuth();
